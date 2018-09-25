@@ -12,8 +12,8 @@ To use, simply update the first four variables with your domain, A record, API k
 
 $domain = 'yourdomain.com'	 # domain name to update
 $name = 'your.subdomain'  	 # A record to update
-$key = 'yourapikey'		       # key for GoDaddy Developer API
-$secret = 'yourapisecret'	  # secret for GoDaddy Developer API
+$key = 'yourapikey'		     # key for GoDaddy Developer API
+$secret = 'yourapisecret'	 # secret for GoDaddy Developer API
 
 # build request headers and perform lookup of current address of nominated A record
 $headers = @{}
